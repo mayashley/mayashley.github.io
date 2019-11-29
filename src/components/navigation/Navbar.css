@@ -1,0 +1,17 @@
+
+.navContainer {
+    /* border: 1px red solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    height: 10vh;
+    width:100vw;
+    background-color:#00334a;
+}
+
+.navbtn {
+    /* border: 1px solid green; */
+    display:flex;
+    flex-direction: row;
+}
