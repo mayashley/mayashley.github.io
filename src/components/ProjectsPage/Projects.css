@@ -1,0 +1,13 @@
+.projectsContainer {
+    width:100%;
+   min-height:100%;
+    border: 2px solid green;
+
+}
+
+.imgCard {
+border: 2px solid red;
+width: 20%;
+height:400px;
+color:black;
+}

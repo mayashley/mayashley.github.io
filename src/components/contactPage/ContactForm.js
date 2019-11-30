@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./ContactForm.css"
+import ContactButton from "./ContactButton";
 
 class ContactForm extends Component {
   render() {
@@ -9,7 +10,7 @@ class ContactForm extends Component {
       <div>
       <form >
       <label>First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+      <input type="text" id="fname" name="firstname" placeholder="Your first name.." />
       <label>Last Name</label>
       <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
   
@@ -20,7 +21,7 @@ class ContactForm extends Component {
   
       <label>Subject</label>
       <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
-      {/* <input type="submit" value="Submit" /> */}
+      <ContactButton/>
       </form>
       </div>
       </div>

@@ -3,10 +3,8 @@
   width: 100%;
 }
 
-
 body {
   background-size: cover;
-  background-image: url("./images/background-img.jpg");  
-  background-attachment: fixed; 
+  background-image: url("./images/background-img.jpg");
+  background-attachment: fixed;
 }
-
