@@ -16,8 +16,8 @@ class Navbar extends Component {
             <NavButton title="Projects" />
           </Link>
 
-          <Link to="/resume">
-            <NavButton title="Resume" />
+          <Link to="/about">
+            <NavButton title="About" />
           </Link>
 
           <Link to="/contact">

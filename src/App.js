@@ -4,7 +4,7 @@ import Navbar from "./components/navigation/Navbar";
 import "./App.css";
 import ContactForm from './components/contactPage/ContactForm';
 import Projects from "./components/ProjectsPage/Projects";
-import Resume from "./components/ResumePage/Resume";
+import AboutMe from "./components/AboutPage/AboutMe";
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <Switch>
       <Route path="/contact" component={ContactForm} />
-      <Route path="/resume" component={Resume} />
+      <Route path="/about" component={AboutMe} />
       <Route path="/projects" component={Projects} />
       </Switch>
     </div>

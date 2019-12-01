@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
-import "./Resume.css";
+import "./AboutMe.css";
 
 
-class Resume extends Component {
+class AboutMe extends Component {
     render() {
         return (
             <div>This is my resume</div>
         )
     }
 }
-export default Resume;
+export default AboutMe;
