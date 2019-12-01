@@ -1,13 +1,9 @@
 .projectsContainer {
     width:100%;
    min-height:100%;
-    border: 2px solid green;
-
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.imgCard {
-border: 2px solid red;
-width: 20%;
-height:400px;
-color:black;
-}

@@ -6,6 +6,7 @@ import ContactForm from './components/contactPage/ContactForm';
 import Projects from "./components/ProjectsPage/Projects";
 import Resume from "./components/ResumePage/Resume";
 
+
 function App() {
   return (
     <Router>

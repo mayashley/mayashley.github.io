@@ -1,0 +1,30 @@
+.thumbContainer {
+    width:20%;
+   min-height:100%;
+    /* border: 2px solid red; */
+    margin: 4% 10%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.projectThumbImg {
+    border: 2px blue solid;
+    width: 30rem;
+    height:18rem;
+    overflow: hidden;
+    /* background-color: red; */
+box-shadow: 6px 6px 12px 6px rgb(14, 14, 14);
+}
+
+
+/* .project-title{
+    border: 2px purple solid;
+    background-color: black;
+}
+
+.project-category {
+    border: 2px solid yellow;
+    background-color: gray;
+} */

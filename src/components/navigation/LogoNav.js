@@ -7,7 +7,7 @@ class LogoNav extends Component {
     return (
       <Typical
       className="LogoNav"
-        steps={['Hello,', 1000, "I'm Ashley", 1000, 'this is my portfolio...', 1000]}
+        steps={['Hello,', 1000, "I'm Ashley", 1000, 'and this is my portfolio...', 1000, 'Ashley May', 500]}
         loop={1}
         wrapper="p"
       />
