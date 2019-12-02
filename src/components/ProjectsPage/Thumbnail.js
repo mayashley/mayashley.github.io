@@ -9,12 +9,12 @@ class Thumbnail extends Component {
   }
 
   mouseOut() {
-    console.log("Mouse out!!!");
+    // console.log("Mouse out!!!");
     this.setState({flipped: false});
   }
   
   mouseOver() {
-    console.log("Mouse over!!!");
+    // console.log("Mouse over!!!");
     this.setState({flipped: true});
   }
 

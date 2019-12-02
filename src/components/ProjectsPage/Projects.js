@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import Thumbnail from "./Thumbnail";
 import "./Projects.css";
-import christmasImage from "../../images/reactCountdownImg.png";
+// import christmasImage from "../../images/reactCountdownImg.png";
 
 
 const projects = [
   {
-    link: "https://mayashley.github.io/christmas-counter/",
-    image: christmasImage,
-    title: "christmas countdown",
-    category: " javascript"
+    link: "",
+    image: "",
+    title: "",
+    category: " "
   },
   {
     link: "https://mayashley.github.io/christmas-counter/",
