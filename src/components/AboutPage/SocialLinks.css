@@ -1,0 +1,29 @@
+.socialLinks {
+    /* border: 2px red solid; */
+    width:100%;
+}
+
+.containLinks{
+    display:flex;
+    justify-content: center; 
+    position: absolute;
+    bottom: 4%;
+    width: 100%;
+}
+
+
+.links a {
+    /* border:2px solid green; */
+    font-size: 1.5rem;
+   margin: 0 8px;
+   padding: 1.1rem;
+   border-radius:50%;
+   background-color: #00334a;
+}
+
+.links a :hover {
+  transition: all .3s ease-in-out; 
+ transform: scale(1.2);
+}
+
+

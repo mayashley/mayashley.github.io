@@ -3,11 +3,12 @@ import "./NavButton.css";
 
 class NavButton extends Component {
   render() {
-    
     return (
-  <div>
-<button className="button" type="button">{this.props.title}</button>
-  </div>
+      <div>
+        <button className="button" type="button">
+          {this.props.title}
+        </button>
+      </div>
     );
   }
 }

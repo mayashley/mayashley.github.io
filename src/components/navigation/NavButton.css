@@ -10,5 +10,6 @@ color:#ffaf1b;
 .button:hover {
   transition: all .2s ease-in-out; 
   color:#ffa600;
+  cursor: pointer;
 }
 
