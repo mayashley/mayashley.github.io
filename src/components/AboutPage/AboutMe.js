@@ -1,14 +1,18 @@
 import React, { Component } from "react";
 import SocialLinks from "./SocialLinks";
-import "./AboutMe.css";
+import "./AboutMe.scss";
 
 class AboutMe extends Component {
   render() {
     return (
       <div className="aboutMeContainer">
         <div className="aboutMeInfo">
+          <div className="heading">
           <h1>about me</h1>
+          </div>
+          <div className="subHeading">
           <h3>I'm a web developer living in Columbus,Ohio.</h3>
+          </div>
           <div className="paragraphContainer">
             <p>
               I enjoy solving problems and learning new crafts. When I graduated

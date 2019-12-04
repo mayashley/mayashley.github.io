@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/navigation/Navbar";
-import "./App.css";
+import "./App.scss";
 import ContactForm from "./components/contactPage/ContactForm";
 import Projects from "./components/ProjectsPage/Projects";
 import AboutMe from "./components/AboutPage/AboutMe";
@@ -14,7 +14,7 @@ function App() {
         <Switch>
           <Route path="/contact" component={ContactForm} />
           <Route path="/about" component={AboutMe} />
-          <Route path="/projects" component={Projects} />
+          <Route path="/" component={Projects} />
         </Switch>
       </div>
     </Router>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import "./LogoNav.css";
+import "./LogoNav.scss";
 import Typical from 'react-typical'
 
 class LogoNav extends Component {

@@ -1,0 +1,21 @@
+@import '../.././scssVars/Vars.scss';
+
+
+
+.navContainer {
+    /* border: 1px red solid; */
+    display: flex;
+    // flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    height: 8vh;
+    width:100%;
+    background-color:$blue;
+
+    .navbtn {
+        /* border: 1px solid green; */
+        display:flex;
+        // flex-direction: row;
+    }
+}
+

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Thumbnail from "./Thumbnail";
-import "./Projects.css";
+import "./Projects.scss";
 // import christmasImage from "../../images/reactCountdownImg.png";
 
 

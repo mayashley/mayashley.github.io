@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./ContactForm.css";
+import "./ContactForm.scss";
 import emailjs from "emailjs-com";
 
 class ContactForm extends Component {

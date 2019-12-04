@@ -1,5 +1,7 @@
+@import '../.././scssVars/Vars.scss';
+
 .LogoNav {
-  color: #ffa600;
+  color: $regYellow;
   border: none;
   font-size: 22px;
   margin: 0 20px;

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import NavButton from "./NavButton";
-import "./Navbar.css";
+import "./Navbar.scss";
 import LogoNav from "./LogoNav";
 
 class Navbar extends Component {

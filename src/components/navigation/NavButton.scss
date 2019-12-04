@@ -1,15 +1,20 @@
+@import '../.././scssVars/Vars.scss';
+
+
 .button {
    border: none; 
    background-color: transparent;
 font-size:18px;
 padding: 8px;
 margin: 0 20px;
-color:#ffaf1b;
-}
+color:$regYellow;
 
 .button:hover {
   transition: all .2s ease-in-out; 
-  color:#ffa600;
+  color: $hoverYellow;
   cursor: pointer;
 }
+}
+
+
 

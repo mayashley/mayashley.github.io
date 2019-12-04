@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./SocialLinks.css";
+import "./SocialLinks.scss";
 
 class SocialLinks extends Component {
   render() {
