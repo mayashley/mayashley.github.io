@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./ContactForm.scss";
 import emailjs from "emailjs-com";
+import SocialLinks from "../AboutPage/SocialLinks"
 
 class ContactForm extends Component {
   constructor(props) {
@@ -39,6 +40,7 @@ class ContactForm extends Component {
   render() {
     const { emailSent, emailError } = this.state;
     return (
+      <div className="contactContainer">
       <div className="contactInfo">
        
         {emailError ? (
@@ -91,10 +93,17 @@ class ContactForm extends Component {
                 ></textarea>
                 <input className="contactMe" type="submit" value="Send" />
               </form>
+              
               </div>
             )}
+             
           </div>
         )}
+         <div className="linkAlign">
+     <SocialLinks/>
+     </div>
+      </div>
+     
       </div>
     );
   }

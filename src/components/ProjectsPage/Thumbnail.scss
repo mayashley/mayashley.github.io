@@ -1,6 +1,7 @@
+@import "../.././scssVars/Vars.scss";
+
 .thumbContainer {
   position: relative;
-  margin: 2% 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,20 +10,34 @@
     width: 30rem;
     height: 18rem;
     overflow: hidden;
-    box-shadow: 6px 6px 12px 6px #0c0c0c;
-   border-radius: 2px ;
+    box-shadow: 6px 6px 12px 6px $textShaddowBlack;
+    border-radius: 2px;
+
+    .hoverTop {
+      background-color: #00334a31;
+      height: 100%;
+      width: 100%;
+      pointer-events: none;
+      position: absolute;
+
+      .aboutThumbImg p {
+        color: $softWhite;
+      }
+    }
   }
-  
-  .hoverTop {
-    background-color: rgba(255, 255, 255, 0.164);
-   height: 100%;
-    width: 100%;
-    pointer-events: none;
-    position: absolute;
-  }
-  
-  .hoverTop p {
-    color: black;
+}
+@media (min-width: $break-phone) and(max-width: $break-tablet) {
+  .thumbContainer {
+    margin: 2%;
+    .projectThumbImg {
+      width: 18rem;
+    }
+    .hoverTop {
+    
+    }
   }
 }
 
+.animateContainer {
+  margin: 2% 4%;
+}

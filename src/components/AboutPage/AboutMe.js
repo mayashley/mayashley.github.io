@@ -8,7 +8,7 @@ class AboutMe extends Component {
       <div className="aboutMeContainer">
         <div className="aboutMeInfo">
           <div className="heading">
-          <h1>about me</h1>
+          <h1>about me...</h1>
           </div>
           <div className="subHeading">
           <h3>I'm a web developer living in Columbus,Ohio.</h3>
@@ -31,9 +31,11 @@ class AboutMe extends Component {
               time with my family, kayaking, takeing a hike, or editing the
               occasional photo.
             </p>
+            
           </div>
+          <SocialLinks />
         </div>
-        <SocialLinks />
+       
       </div>
     );
   }

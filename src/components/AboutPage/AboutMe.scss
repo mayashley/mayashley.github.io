@@ -1,42 +1,83 @@
-@import '../.././scssVars/Vars.scss';
-
+@import "../.././scssVars/Vars.scss";
 
 .aboutMeContainer {
-    border: 2px pink solid;
-    background-color: #ffbb00ec;
-    min-height: 100%;
-    min-width: 100%;
+  // border: 2px pink solid;
+  height: 100%;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+ 
 }
 
 .aboutMeInfo {
-    background-color: rgb(236, 236, 236);
-  max-width: 50vw;
-    border: 4px solid rgb(68, 29, 29);
-    display:flex;
-    flex-direction: column;
+  background-color: $softWhite;
+  max-width: 40vw;
 
-    .paragraphContainer p {
-      color: #0c0c0c;
-    border: 2px solid red;
-    font-size: 3vw;
-    margin: 0;
-  }
+  // border: 4px solid rgb(68, 29, 29);
+  display: flex;
 
-  .subHeading h3 {
-    border: 1px solid purple;
-    color: #464646de;
-    border: 2px solid green;
-   font-size: 3vw;
-   margin: 0;
-  }
-
-  .heading h1 {
-    border: 1px solid blue;
-    color: #0c0c0c;
-    border: 2px solid black;
-  font-size:6vw;
+  flex-direction: column;
+  margin-bottom: 5%;
+  padding: 2%;
+}
+.paragraphContainer p {
+  color: $textShaddowBlack;
+  // border: 2px solid red;
+  font-size: 18px;
   margin: 0;
+  text-align: left;
+  text-indent: 1%;
+}
+
+.subHeading h3 {
+  // border: 1px solid purple;
+  color: #626262f8;
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.heading h1 {
+  // border: 1px solid blue;
+  color: $textShaddowBlack;
+  font-size: 28px;
+  margin: 0;
+}
+
+@media (min-width: $break-phone) and(max-width: $break-tablet) {
+  .aboutMeInfo {
+    max-width: 300px;
+    display: flex;
+    padding: 0% 4%;
+  }
+  .paragraphContainer p {
+    font-size: 20px;
+  }
+  .subHeading h3 {
+    font-size: 24px;
+  }
+  .heading h1 {
+    font-size: 30px;
   }
 }
 
-
+@media (min-width: $break-tablet) {
+  .aboutMeContainer {
+  justify-content: left;
+  margin: 0 6px;
+  }
+  
+  .aboutMeInfo {
+    max-width: 500px;
+    padding: 0% 1%;
+  }
+  .paragraphContainer p {
+    font-size: 18px;
+  }
+  .subHeading h3 {
+    font-size: 22px;
+  }
+  .heading h1 {
+    font-size: 30px;
+  }
+}
