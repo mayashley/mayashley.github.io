@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import SocialLinks from "./SocialLinks";
+// import ImageGallery from "./ImageGallery";
 import "./AboutMe.scss";
 
 class AboutMe extends Component {
@@ -34,8 +35,9 @@ class AboutMe extends Component {
             
           </div>
           <SocialLinks />
+          
         </div>
-       
+        {/* <ImageGallery/> */}
       </div>
     );
   }
