@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import SocialLinks from "./SocialLinks";
-// import ImageGallery from "./ImageGallery";
+import ImageGallery from "./ImageGallery";
 import "./AboutMe.scss";
 
 class AboutMe extends Component {
   render() {
     return (
+      <div className="mainContainer">
       <div className="aboutMeContainer">
         <div className="aboutMeInfo">
           <div className="heading">
@@ -35,9 +36,9 @@ class AboutMe extends Component {
             
           </div>
           <SocialLinks />
-          
         </div>
-        {/* <ImageGallery/> */}
+      </div>
+      <ImageGallery/>
       </div>
     );
   }
