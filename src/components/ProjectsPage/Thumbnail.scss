@@ -10,18 +10,27 @@
     width: 30rem;
     height: 18rem;
     overflow: hidden;
+    display: flex;
     box-shadow: 6px 6px 12px 6px $textShaddowBlack;
     border-radius: 2px;
 
     .hoverTop {
-      background-color: #00334a31;
+      color: $regYellow;
+      background-color: rgba(0, 0, 0, 0.609);
       height: 100%;
       width: 100%;
       pointer-events: none;
-      position: absolute;
 
-      .aboutThumbImg p {
-        color: $softWhite;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+
+      .aboutThumbImg {
+        font-size: 80px;
+        display: flex;
+        margin: 10px;
+        align-items: center;
+        text-shadow: 8px 8px 6px black;
       }
     }
   }
@@ -31,8 +40,10 @@
     margin: 2%;
     .projectThumbImg {
       width: 18rem;
+      .hoverTop {
+        background-color: transparent;
+      }
     }
-    
   }
 }
 

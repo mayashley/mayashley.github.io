@@ -11,7 +11,7 @@ class ImageGallery extends Component {
   render() {
     return (
       <div className="imgContainer">
-        <div className="innerImgContainer">
+        {/* <div className="innerImgContainer"> */}
           <div className="images">
             <img src={image2} alt="" />
           </div>
@@ -30,7 +30,7 @@ class ImageGallery extends Component {
           <div className="images">
             <img src={image6} alt="" />
           </div>
-        </div>
+        {/* </div> */}
       </div>
     );
   }

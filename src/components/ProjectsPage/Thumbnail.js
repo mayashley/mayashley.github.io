@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Thumbnail.scss";
-import {Animated} from "react-animated-css";
+import { Animated } from "react-animated-css";
 
 class Thumbnail extends Component {
   constructor(props) {
@@ -25,35 +25,62 @@ class Thumbnail extends Component {
   };
 
   render() {
-    const { link, image } = this.props;
+    const { link, image, logo } = this.props;
     const { animateIn } = this.state;
     console.log(this.props);
     // if (!animateIn) {
     //   return null;
     // }
     return (
-      <Animated animationIn="slideInLeft" animationOut="wobble" animateOnMount={false} animationInDuration={1000} animationOutDuration={1000} isVisible={animateIn} className="animateContainer">
-      <div className="thumbContainer">
-        <a href={link}>
-          <div
-            className="projectThumbImg"
-            onMouseOut={() => this.mouseOut()}
-            onMouseOver={() => this.mouseOver()}
-          >
-            {this.state.flipped && (
-              <div className="hoverTop">
-                <div className="aboutThumbImg">
-                  <p>hello</p>
+      <Animated
+        animationIn="slideInLeft"
+        animationOut="wobble"
+        animateOnMount={false}
+        animationInDuration={1000}
+        animationOutDuration={1000}
+        isVisible={animateIn}
+        className="animateContainer"
+      >
+        <div className="thumbContainer">
+          <a href={link}>
+            <div
+              className="projectThumbImg"
+              onMouseOut={() => this.mouseOut()}
+              onMouseOver={() => this.mouseOver()}
+            >
+              {this.state.flipped && (
+                <div className="hoverTop">
+                  {logo.includes("javaScript") && 
+                  <div className="aboutThumbImg">
+                    <i className="fab fa-js"></i>
+                  </div>
+                }
+                {logo.includes("react") &&
+                  <div className="aboutThumbImg">
+                    <i className="fab fa-react"></i>
+                  </div>
+                  }
+                  {logo.includes("html") &&
+                  <div className="aboutThumbImg">
+                    <i className="fab fa-html5"></i>
+                  </div>
+  }
+  {logo.includes("css") &&
+                  <div className="aboutThumbImg">
+                    <i className="fab fa-css3-alt"></i>
+                  </div>
+  }
                 </div>
-              </div>
-            )}
-            <img src={image} alt="projects" />
-          </div>
-        </a>
-      </div>
+              )}
+              <img src={image} alt="projects" />
+            </div>
+          </a>
+        </div>
       </Animated>
     );
   }
 }
 
 export default Thumbnail;
+
+

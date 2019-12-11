@@ -2,34 +2,37 @@ import React, { Component } from "react";
 import Thumbnail from "./Thumbnail";
 import "./Projects.scss";
 
-import christmasImage from "../../images/reactCountdownImg.png";
-
+import appleLandingPage from "../../images/apple-clone.png";
+import reactWeatherApp from "../../images/weatherAppReact.png";
+import groceryApp from "../../images/groceryList.png";
+import hotNcold from "../../images/hot-n-cold.png";
 
 const projects = [
   
   {
     link: "",
-    image: christmasImage,
-    title: "",
-    category: " "
+    image:reactWeatherApp ,
+    title: "react weather app",
+    logo:[ "html", "react", "css"]
+
   },
   {
-    link: "https://mayashley.github.io/christmas-counter/",
-    image: christmasImage,
-    title: "christmas countdown",
-    category: " javascript"
+    link: "",
+    image: appleLandingPage,
+    title: "apple landing page",
+    logo:["javaScript", "html", "css"]
   },
   {
-    link: "https://mayashley.github.io/christmas-counter/",
-    image: christmasImage,
+    link: "",
+    image: groceryApp,
     title: "christmas countdown",
-    category: " javascript"
+    logo:[ "html", "react", "css"]
   },
   {
-    link: "https://mayashley.github.io/christmas-counter/",
-    image: christmasImage,
+    link: "",
+    image: hotNcold,
     title: "christmas countdown",
-    category: " javascript"
+    logo:["javaScript", "html", "css"]
   },
   
  
@@ -48,7 +51,7 @@ class Projects extends Component {
               link={projectCard.link}
               image={projectCard.image}
               title={projectCard.title}
-              category={projectCard.category}
+              logo={projectCard.logo}
               index={index +1}
             />
            
