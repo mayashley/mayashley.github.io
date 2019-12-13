@@ -2,14 +2,14 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import NavButton from "./NavButton";
 import "./Navbar.scss";
-import LogoNav from "./LogoNav";
+// import LogoNav from "./LogoNav";
 
 class Navbar extends Component {
   render() {
     return (
       <nav className="navContainer">
         <div className="logo">
-          <LogoNav />
+          {/* <LogoNav /> */}
         </div>
         <div className="navbtn">
           <Link to="/projects">
