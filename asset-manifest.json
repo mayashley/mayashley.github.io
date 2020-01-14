@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.d6df32bc.chunk.css",
-    "main.js": "/static/js/main.af4760a6.chunk.js",
-    "main.js.map": "/static/js/main.af4760a6.chunk.js.map",
+    "main.js": "/static/js/main.f251c80b.chunk.js",
+    "main.js.map": "/static/js/main.f251c80b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.36e44473.js",
     "runtime-main.js.map": "/static/js/runtime-main.36e44473.js.map",
     "static/js/2.930ccb07.chunk.js": "/static/js/2.930ccb07.chunk.js",
     "static/js/2.930ccb07.chunk.js.map": "/static/js/2.930ccb07.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e56fc73b6680f5eb08e3aae845b0db30.js": "/precache-manifest.e56fc73b6680f5eb08e3aae845b0db30.js",
+    "precache-manifest.54223e988c6616386f3ac62fc374db89.js": "/precache-manifest.54223e988c6616386f3ac62fc374db89.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.d6df32bc.chunk.css.map": "/static/css/main.d6df32bc.chunk.css.map",
     "static/media/apple-clone.png": "/static/media/apple-clone.9c16a1ae.png",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.36e44473.js",
     "static/js/2.930ccb07.chunk.js",
     "static/css/main.d6df32bc.chunk.css",
-    "static/js/main.af4760a6.chunk.js"
+    "static/js/main.f251c80b.chunk.js"
   ]
 }
