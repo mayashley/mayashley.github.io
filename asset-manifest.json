@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.506a6e37.chunk.css",
+    "main.css": "/static/css/main.d6df32bc.chunk.css",
     "main.js": "/static/js/main.af4760a6.chunk.js",
     "main.js.map": "/static/js/main.af4760a6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.36e44473.js",
@@ -8,9 +8,9 @@
     "static/js/2.930ccb07.chunk.js": "/static/js/2.930ccb07.chunk.js",
     "static/js/2.930ccb07.chunk.js.map": "/static/js/2.930ccb07.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d4c6572b4ccfad57de4d0362afc7411a.js": "/precache-manifest.d4c6572b4ccfad57de4d0362afc7411a.js",
+    "precache-manifest.e56fc73b6680f5eb08e3aae845b0db30.js": "/precache-manifest.e56fc73b6680f5eb08e3aae845b0db30.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.506a6e37.chunk.css.map": "/static/css/main.506a6e37.chunk.css.map",
+    "static/css/main.d6df32bc.chunk.css.map": "/static/css/main.d6df32bc.chunk.css.map",
     "static/media/apple-clone.png": "/static/media/apple-clone.9c16a1ae.png",
     "static/media/groceryList.png": "/static/media/groceryList.c2c9badd.png",
     "static/media/tmdb-movie.png": "/static/media/tmdb-movie.df945aa8.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.36e44473.js",
     "static/js/2.930ccb07.chunk.js",
-    "static/css/main.506a6e37.chunk.css",
+    "static/css/main.d6df32bc.chunk.css",
     "static/js/main.af4760a6.chunk.js"
   ]
 }
