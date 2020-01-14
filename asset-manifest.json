@@ -1,32 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.07d1d4af.chunk.css",
-    "main.js": "/static/js/main.b89030d3.chunk.js",
-    "main.js.map": "/static/js/main.b89030d3.chunk.js.map",
+    "main.css": "/static/css/main.506a6e37.chunk.css",
+    "main.js": "/static/js/main.af4760a6.chunk.js",
+    "main.js.map": "/static/js/main.af4760a6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.36e44473.js",
     "runtime-main.js.map": "/static/js/runtime-main.36e44473.js.map",
-    "static/js/2.3255054c.chunk.js": "/static/js/2.3255054c.chunk.js",
-    "static/js/2.3255054c.chunk.js.map": "/static/js/2.3255054c.chunk.js.map",
+    "static/js/2.930ccb07.chunk.js": "/static/js/2.930ccb07.chunk.js",
+    "static/js/2.930ccb07.chunk.js.map": "/static/js/2.930ccb07.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bd0402d7ace3410ff23277fcf9a08e3b.js": "/precache-manifest.bd0402d7ace3410ff23277fcf9a08e3b.js",
+    "precache-manifest.d4c6572b4ccfad57de4d0362afc7411a.js": "/precache-manifest.d4c6572b4ccfad57de4d0362afc7411a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.07d1d4af.chunk.css.map": "/static/css/main.07d1d4af.chunk.css.map",
+    "static/css/main.506a6e37.chunk.css.map": "/static/css/main.506a6e37.chunk.css.map",
     "static/media/apple-clone.png": "/static/media/apple-clone.9c16a1ae.png",
-    "static/media/christmasLights.jpg": "/static/media/christmasLights.d9562058.jpg",
-    "static/media/concerts.jpg": "/static/media/concerts.73054279.jpg",
-    "static/media/familyHalloween.jpg": "/static/media/familyHalloween.909affb0.jpg",
     "static/media/groceryList.png": "/static/media/groceryList.c2c9badd.png",
-    "static/media/kayaking2.jpg": "/static/media/kayaking2.10a7ab3c.jpg",
-    "static/media/out.jpg": "/static/media/out.90a74173.jpg",
-    "static/media/theBeach.jpg": "/static/media/theBeach.514694d3.jpg",
     "static/media/tmdb-movie.png": "/static/media/tmdb-movie.df945aa8.png",
     "static/media/App.scss": "/static/media/waves.80daa468.jpg",
     "static/media/weatherAppReact.png": "/static/media/weatherAppReact.218fa05b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.36e44473.js",
-    "static/js/2.3255054c.chunk.js",
-    "static/css/main.07d1d4af.chunk.css",
-    "static/js/main.b89030d3.chunk.js"
+    "static/js/2.930ccb07.chunk.js",
+    "static/css/main.506a6e37.chunk.css",
+    "static/js/main.af4760a6.chunk.js"
   ]
 }
