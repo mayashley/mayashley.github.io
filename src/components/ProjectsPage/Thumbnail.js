@@ -27,7 +27,7 @@ class Thumbnail extends Component {
   render() {
     const { link, image, logo } = this.props;
     const { animateIn } = this.state;
-    console.log(this.props);
+    
     // if (!animateIn) {
     //   return null;
     // }
@@ -72,7 +72,7 @@ class Thumbnail extends Component {
   }
                 </div>
               )}
-              <img src={image} alt="projects" />
+              <img  className="image" src={image} alt="projects" />
             </div>
           </a>
         </div>

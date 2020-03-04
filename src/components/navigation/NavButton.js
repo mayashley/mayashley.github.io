@@ -3,10 +3,11 @@ import "./NavButton.scss";
 
 class NavButton extends Component {
   render() {
+    const {title} = this.props;
     return (
       <div>
         <button className="button" type="button">
-          {this.props.title}
+          {title}
         </button>
       </div>
     );

@@ -1,9 +1,11 @@
 {
   "name": "react-portfolio",
+  "homepage": "https://mayashley.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "emailjs-com": "^2.4.1",
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.0",
     "react": "^16.12.0",
     "react-animated-css": "^1.2.1",
@@ -14,6 +16,8 @@
     "styled-components": "^4.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

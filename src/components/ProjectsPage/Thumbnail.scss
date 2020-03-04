@@ -9,7 +9,7 @@
   .projectThumbImg {
     width: 30rem;
     height: 18rem;
-    overflow: hidden;
+    overflow: hidden; 
     display: flex;
     box-shadow: 6px 6px 12px 6px $textShaddowBlack;
     border-radius: 2px;
@@ -21,7 +21,7 @@
       height: 100%;
       width: 100%;
       pointer-events: none;
-
+   
       position: absolute;
       display: flex;
       justify-content: center;
@@ -29,12 +29,17 @@
       .aboutThumbImg {
         font-size: 80px;
         display: flex;
+      
         margin: 10px;
         align-items: center;
         text-shadow: 8px 8px 6px black;
       }
     }
   }
+}
+.image {
+  height: 100%;
+  width: 100%;
 }
 @media (min-width: $break-phone) and(max-width: $break-tablet) {
   .thumbContainer {

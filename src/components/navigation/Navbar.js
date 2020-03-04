@@ -4,12 +4,14 @@ import NavButton from "./NavButton";
 import "./Navbar.scss";
 import LogoNav from "./LogoNav";
 
+
 class Navbar extends Component {
   render() {
     return (
       <nav className="navContainer">
         <div className="logo">
           <LogoNav />
+         
         </div>
         <div className="navbtn">
           <Link to="/projects">
@@ -30,3 +32,5 @@ class Navbar extends Component {
 }
 
 export default Navbar;
+
+

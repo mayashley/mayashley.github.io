@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import SocialLinks from "./SocialLinks";
-import ImageGallery from "./ImageGallery";
+// import ImageGallery from "./ImageGallery";
 import "./AboutMe.scss";
 
 
@@ -39,8 +39,8 @@ Since then I've built projects with: HTML, CSS, JavaScript, and
           <SocialLinks />
         </div>
       </div>
-      <ImageGallery/>
-      </div>
+      {/* <ImageGallery/> */}
+    </div>
     );
   }
 }

@@ -5,34 +5,33 @@ import "./Projects.scss";
 import appleLandingPage from "../../images/apple-clone.png";
 import reactWeatherApp from "../../images/weatherAppReact.png";
 import groceryApp from "../../images/groceryList.png";
-import hotNcold from "../../images/hot-n-cold.png";
+import tmdbMovie from "../../images/tmdb-movie.png";
 
 const projects = [
   
   {
-    link: "",
-    image:reactWeatherApp ,
-    title: "react weather app",
-    logo:[ "html", "react", "css"]
-
+    link: "https://github.com/mayashley/tmdb-movies/tree/gh-pages",
+    image: tmdbMovie,
+    title: "christmas countdown",
+    logo:["react", "html", "css"]
   },
   {
-    link: "",
+    link: "https://github.com/mayashley/Apple-Clone",
     image: appleLandingPage,
     title: "apple landing page",
     logo:["javaScript", "html", "css"]
   },
   {
-    link: "",
+    link: "https://github.com/mayashley/to-do-list",
     image: groceryApp,
     title: "christmas countdown",
     logo:[ "html", "react", "css"]
   },
   {
-    link: "",
-    image: hotNcold,
-    title: "christmas countdown",
-    logo:["javaScript", "html", "css"]
+    link: "https://github.com/mayashley/my-react-weather-app/tree/gh-pages",
+    image:reactWeatherApp ,
+    title: "react weather app",
+    logo:[ "html", "react", "css"]
   },
   
  
