@@ -6,9 +6,15 @@ import appleLandingPage from "../../images/apple-clone.png";
 import reactWeatherApp from "../../images/weatherAppReact.png";
 import groceryApp from "../../images/groceryList.png";
 import tmdbMovie from "../../images/tmdb-movie.png";
+import beachSite from "../../images/beachesSite.png"
 
 const projects = [
-  
+  {
+    link: "https://backroad-travel.netlify.com/",
+    image:beachSite ,
+    title: "Beaches Travel Agency",
+    logo:[ "react", "html", "css"]
+  },
   {
     link: "https://github.com/mayashley/tmdb-movies/tree/gh-pages",
     image: tmdbMovie,
