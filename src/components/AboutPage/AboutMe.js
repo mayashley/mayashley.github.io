@@ -32,7 +32,7 @@ Since then I've built projects with: HTML, CSS, JavaScript, and
  React. These days when I'm not coding you can find me spending
  time with my family, kayaking, taking a hike, or editing the
  occasional photo. */}
-               I began learning to code in 2019 and soon realized how much I
+                I began learning to code in 2019 and soon realized how much I
                 enjoyed the challenge it provided. Over the last few months I
                 have been working as a freelance web developer. While
                 freelancing I've had the pleasure of working with a few small
