@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.d6df32bc.chunk.css",
-    "main.js": "/static/js/main.f251c80b.chunk.js",
-    "main.js.map": "/static/js/main.f251c80b.chunk.js.map",
+    "main.css": "/static/css/main.dd00a475.chunk.css",
+    "main.js": "/static/js/main.61a77eee.chunk.js",
+    "main.js.map": "/static/js/main.61a77eee.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.36e44473.js",
     "runtime-main.js.map": "/static/js/runtime-main.36e44473.js.map",
-    "static/js/2.930ccb07.chunk.js": "/static/js/2.930ccb07.chunk.js",
-    "static/js/2.930ccb07.chunk.js.map": "/static/js/2.930ccb07.chunk.js.map",
+    "static/js/2.4918a19f.chunk.js": "/static/js/2.4918a19f.chunk.js",
+    "static/js/2.4918a19f.chunk.js.map": "/static/js/2.4918a19f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.54223e988c6616386f3ac62fc374db89.js": "/precache-manifest.54223e988c6616386f3ac62fc374db89.js",
+    "precache-manifest.0cf4078b01ac6be22445b79b522fdf81.js": "/precache-manifest.0cf4078b01ac6be22445b79b522fdf81.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d6df32bc.chunk.css.map": "/static/css/main.d6df32bc.chunk.css.map",
+    "static/css/main.dd00a475.chunk.css.map": "/static/css/main.dd00a475.chunk.css.map",
     "static/media/apple-clone.png": "/static/media/apple-clone.9c16a1ae.png",
+    "static/media/beachesGatsbyProject.png": "/static/media/beachesGatsbyProject.f70f55b5.png",
+    "static/media/ferrelLandscapeImg.png": "/static/media/ferrelLandscapeImg.97d92a02.png",
     "static/media/groceryList.png": "/static/media/groceryList.c2c9badd.png",
     "static/media/tmdb-movie.png": "/static/media/tmdb-movie.df945aa8.png",
     "static/media/App.scss": "/static/media/waves.80daa468.jpg",
-    "static/media/weatherAppReact.png": "/static/media/weatherAppReact.218fa05b.png"
+    "static/media/weatherAppReact.png": "/static/media/weatherAppReact.218fa05b.png",
+    "static/media/wikkiSearchPage.png": "/static/media/wikkiSearchPage.197ddde6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.36e44473.js",
-    "static/js/2.930ccb07.chunk.js",
-    "static/css/main.d6df32bc.chunk.css",
-    "static/js/main.f251c80b.chunk.js"
+    "static/js/2.4918a19f.chunk.js",
+    "static/css/main.dd00a475.chunk.css",
+    "static/js/main.61a77eee.chunk.js"
   ]
 }

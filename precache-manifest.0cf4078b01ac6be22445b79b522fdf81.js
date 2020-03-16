@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44a9965f879b94333e3b123917cfedf5",
+    "revision": "1911126d71676cf263b1886e9859444b",
     "url": "/index.html"
   },
   {
-    "revision": "4c23d40f55452e7fdcfd",
-    "url": "/static/css/main.d6df32bc.chunk.css"
+    "revision": "c4c21c24073c4b743406",
+    "url": "/static/css/main.dd00a475.chunk.css"
   },
   {
-    "revision": "a7d1350f33f42c0533b4",
-    "url": "/static/js/2.930ccb07.chunk.js"
+    "revision": "703e87425a68e9084fa9",
+    "url": "/static/js/2.4918a19f.chunk.js"
   },
   {
-    "revision": "4c23d40f55452e7fdcfd",
-    "url": "/static/js/main.f251c80b.chunk.js"
+    "revision": "c4c21c24073c4b743406",
+    "url": "/static/js/main.61a77eee.chunk.js"
   },
   {
     "revision": "c638701b8921e36fa11c",
@@ -22,6 +22,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9c16a1ae359f4411bc2e009191f30545",
     "url": "/static/media/apple-clone.9c16a1ae.png"
+  },
+  {
+    "revision": "f70f55b59cd1219ffe50836a78232867",
+    "url": "/static/media/beachesGatsbyProject.f70f55b5.png"
+  },
+  {
+    "revision": "97d92a02af37f2cec0a6d6fe2fb35de4",
+    "url": "/static/media/ferrelLandscapeImg.97d92a02.png"
   },
   {
     "revision": "c2c9badd550ab78166498d4555157b76",
@@ -38,5 +46,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "218fa05b7c42fa0457f020ce7e25def0",
     "url": "/static/media/weatherAppReact.218fa05b.png"
+  },
+  {
+    "revision": "197ddde658bbf5511c30b32229d46e96",
+    "url": "/static/media/wikkiSearchPage.197ddde6.png"
   }
 ]);
